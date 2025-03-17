@@ -1,0 +1,25 @@
+@import "mixins"; // ✅ Correct way (No need for .scss extension)
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  @include flex-center; // ✅ Using mixin correctly
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.todo-list span {
+    color: rgb(204, 200, 200);
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.todo-list button {
+    color: rgb(132, 138, 143);
+    border: none;
+    border-radius: 3px;
+    background-color: beige;  
+}

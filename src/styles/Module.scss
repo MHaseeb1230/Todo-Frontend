@@ -1,0 +1,17 @@
+@import "../styles/variables";
+
+.todo-app {
+  // background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+
+  h3.main {
+    color: white;
+    // font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
